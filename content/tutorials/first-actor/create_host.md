@@ -106,7 +106,7 @@ Seed: Sxxxxxxxxxx
 Remember that the seed is private, treat it as a secret.
 ```
 
-The _Public Key_ value is used to identify and validate the actor module. So copy the Public Key into the call to `host.bind_actor`:
+The _Public Key_ value is used to identify and validate the actor module. If you lost the _Public Key_ output from `wash keys gen`, you can also find it again by running `wash claims inspect` with your signed `wasm` binary. So copy the Public Key into the call to `host.bind_actor`:
 
 ```rust
 host.bind_actor(

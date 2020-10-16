@@ -19,7 +19,7 @@ To run this sample, first make sure you don't have anything currently using the 
 ## Running the Program
 
 ```shell
-$ RUST_LOG=cranelift_wasm=warn,info cargo run
+$ RUST_LOG=wascc_host=info cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.10s
      Running `target/debug/hellorunner`
 [2019-12-10T15:35:04Z INFO  wascc_host::authz] Discovered capability attestations: wascc:http_server

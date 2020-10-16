@@ -70,7 +70,7 @@ If you were to run this module inside the **waSCC** host runtime right now, it w
 We're going to return a simple JSON payload to the callers, so the first thing we want to do is add the `serde_json` crate to our dependencies. Add the following line (version number may be outdated) to your `Cargo.toml` file in the dependencies section:
 
 ```
-serde_json = "1.0.50"
+serde_json = "1.0.59"
 ```
 
 Next, add the following to the top of your `src/lib.rs` file to let us use the `json!` macro:
